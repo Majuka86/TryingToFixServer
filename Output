@@ -1,0 +1,31 @@
+
+C:\Users\bigu2\Desktop\ATM7>REM Forge requires a configured set of both JVM and program arguments.
+
+C:\Users\bigu2\Desktop\ATM7>REM Add custom JVM arguments to the user_jvm_args.txt
+
+C:\Users\bigu2\Desktop\ATM7>REM Add custom program arguments {such as nogui} to this file in the next line before the  or
+
+C:\Users\bigu2\Desktop\ATM7>REM  pass them to this script directly
+
+C:\Users\bigu2\Desktop\ATM7>java @user_jvm_args.txt @libraries/net/minecraftforge/forge/1.18.2-40.1.47/win_args.txt
+2022-07-23 17:49:22,141 main WARN Advanced terminal features are not available in this environment
+[17:49:22] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 40.1.47, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220404.173914]
+[17:49:22] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 18.0.1.1 by Oracle Corporation
+Exception in thread "main" java.lang.module.ResolutionException: Module arcanearchives.mixins8 contains package org.spongepowered.asm.mixin.injection.selectors, module bewitchment exports package org.spongepowered.asm.mixin.injection.selectors to arcanearchives.mixins8
+        at java.base/java.lang.module.Resolver.resolveFail(Resolver.java:901)
+        at java.base/java.lang.module.Resolver.failTwoSuppliers(Resolver.java:807)
+        at java.base/java.lang.module.Resolver.checkExportSuppliers(Resolver.java:736)
+        at java.base/java.lang.module.Resolver.finish(Resolver.java:380)
+        at java.base/java.lang.module.Configuration.<init>(Configuration.java:140)
+        at java.base/java.lang.module.Configuration.resolveAndBind(Configuration.java:494)
+        at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.ModuleLayerHandler.buildLayer(ModuleLayerHandler.java:70)
+        at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.ModuleLayerHandler.buildLayer(ModuleLayerHandler.java:82)
+        at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.TransformationServicesHandler.discoverServices(TransformationServicesHandler.java:128)
+        at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.Launcher.run(Launcher.java:86)
+        at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.Launcher.main(Launcher.java:77)
+        at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
+        at MC-BOOTSTRAP/cpw.mods.modlauncher@9.1.3/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
+        at cpw.mods.bootstraplauncher@1.0.0/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:149)
+
+C:\Users\bigu2\Desktop\ATM7>pause
+Press any key to continue . . .
